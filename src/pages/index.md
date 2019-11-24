@@ -2,8 +2,8 @@
 templateKey: index-page
 title: Eastham Oyster Party
 image: /img/grant-sunset.png
-heading: Great Shellfish with a Conscience
-subheading: Enjoy world class shellsfish while supporting sustainable auqaculture
+heading: World class Cape Cod shellfish
+subheading: Cape Cod pop-up raw bar supporting sustainable auqaculture
 mainpitch:
   title: Why Eastham Oyster Party
   description: >
@@ -11,11 +11,7 @@ mainpitch:
     doorstep, the Eastham Oyster Party offers the best in high quality
     shellfish. Harvested using sustainably farmed and wild practices from the
     pristine and vast waters of outer Cape Cod. 
-description: >-
-  EOP is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+description: ' '
 intro:
   blurbs:
     - image: /img/coffee.png
