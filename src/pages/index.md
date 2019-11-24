@@ -1,18 +1,18 @@
 ---
 templateKey: index-page
-title: Enjoy world class shellfish
+title: Eastham Oyster Party
 image: /img/grant-sunset.png
-heading: Great coffee with a conscience
-subheading: Support sustainable farm to table auqaculture
+heading: Great Shellfish with a Conscience
+subheading: Enjoy world class shellsfish while supporting sustainable auqaculture
 mainpitch:
-  title: Why Kaldi
+  title: Why Eastham Oyster Party
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    We are committed to bringing the authentic raw bar experience to your
+    doorstep, the Eastham Oyster Party offers the best in high quality
+    shellfish. Harvested using sustainably farmed and wild practices from the
+    pristine and vast waters of outer Cape Cod. 
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  EOP is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
