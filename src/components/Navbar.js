@@ -44,7 +44,7 @@ const Navbar = class extends Component {
               <img
                 src={logo}
                 alt='EOP'
-                style={{ width: '88px', height: '88px' }}
+                //style={{ width: '88px', height: '88px' }}
               />
             </Link>
             {/* Hamburger menu */}
