@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'gatsby';
-import github from '../img/github-icon.svg';
-import logo from '../img/logo.jpg';
+import logo from '../../static/img/full-logo.png';
 
-const Navbar = class extends React.Component {
+const Navbar = class extends Component {
   constructor(props) {
     super(props);
     this.state = {
