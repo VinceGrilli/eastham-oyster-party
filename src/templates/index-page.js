@@ -7,6 +7,7 @@ import Features from '../components/Features';
 
 export const IndexPageTemplate = ({
   image,
+  logo,
   title,
   heading,
   subheading,
@@ -25,7 +26,7 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
-      <div
+      {/*<div
         style={{
           display: 'flex',
           height: '150px',
@@ -35,13 +36,13 @@ export const IndexPageTemplate = ({
           flexDirection: 'column',
         }}
       >
-        <h1
+         <h1
           className='has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen'
           style={{
             boxShadow:
               'rgb(1, 22, 191) 0.5rem 0px 0px, rgb(1, 22, 191) -0.5rem 0px 0px',
             backgroundColor: 'rgb(1, 22, 191)',
-            color: 'pink',
+            color: 'white',
             lineHeight: '1',
             padding: '0.25em',
           }}
@@ -61,7 +62,7 @@ export const IndexPageTemplate = ({
         >
           {subheading}
         </h3>
-      </div>
+      </div>*/}
     </div>
     <section className='section section--gradient'>
       <div className='container'>
@@ -104,6 +105,7 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -121,6 +123,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
+        logo={frontmatter.logo}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
