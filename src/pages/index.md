@@ -1,7 +1,8 @@
 ---
 templateKey: index-page
 title: Eastham Oyster Party
-image: /img/turnip-fest.jpg
+image: /img/grant-sunset.png
+logo: /img/full-logo.png
 heading: World class Cape Cod shellfish
 subheading: Cape Cod pop-up raw bar supporting sustainable auqaculture
 mainpitch:
