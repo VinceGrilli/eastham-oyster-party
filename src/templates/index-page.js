@@ -74,7 +74,9 @@ export const IndexPageTemplate = ({
                     <h1 className='title'>{mainpitch.title}</h1>
                   </div>
                   <div className='tile'>
-                    <h3 className='subtitle'>{mainpitch.description}</h3>
+                    <h3 className='subtitle has-text-centered'>
+                      {mainpitch.description}
+                    </h3>
                   </div>
                 </div>
                 <div className='columns'>
@@ -89,7 +91,7 @@ export const IndexPageTemplate = ({
                 <div className='columns'>
                   <div className='column is-12 has-text-centered'>
                     <Link className='btn' to='/products'>
-                      See all products
+                      See what we're offering
                     </Link>
                   </div>
                 </div>
