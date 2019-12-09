@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
-
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 
@@ -26,6 +26,9 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
+      <div>
+        <PreviewCompatibleImage imageInfo={logo} />
+      </div>
       {/*<div
         style={{
           display: 'flex',
@@ -144,7 +147,6 @@ IndexPage.propTypes = {
     }),
   }),
 };
-
 export default IndexPage;
 
 export const pageQuery = graphql`
