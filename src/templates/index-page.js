@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
       alt='BG'
     >
       <div className='content has-text-centered'>
-        <img src={logo} alt='EOP' />
+        <img src={logo} alt='EOP' style={{ width: '400px' }} />
       </div>
       {/*<div
         style={{
