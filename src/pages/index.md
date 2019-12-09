@@ -6,12 +6,12 @@ logo: /img/full-logo.png
 heading: World class Cape Cod shellfish
 subheading: Cape Cod pop-up raw bar supporting sustainable auqaculture
 mainpitch:
-  title: Why Eastham Oyster Party
+  title: ' '
   description: >
-    We are committed to bringing the authentic raw bar experience to your
-    doorstep, the Eastham Oyster Party offers the best in high quality
-    shellfish. Harvested using sustainably farmed and wild practices from the
-    pristine and vast waters of outer Cape Cod. 
+    Eastham Oyster Party is committed to bringing the authentic raw bar
+    experience to your doorstep, we offer the best in high quality shellfish.
+    Harvested using sustainably farmed and wild practices from the pristine and
+    vast waters of outer Cape Cod. 
 description: ' '
 intro:
   blurbs:
