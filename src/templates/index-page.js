@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 
@@ -26,8 +25,8 @@ export const IndexPageTemplate = ({
         backgroundAttachment: `fixed`,
       }}
     >
-      <div>
-        <PreviewCompatibleImage imageInfo={logo} />
+      <div className='content has-text-centered'>
+        <img src={logo} alt='EOP' style={{ width: '14em', height: '10em' }} />
       </div>
       {/*<div
         style={{
