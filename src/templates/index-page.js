@@ -7,7 +7,6 @@ import Features from '../components/Features';
 
 export const IndexPageTemplate = ({
   image,
-  logo,
   title,
   heading,
   subheading,
@@ -79,7 +78,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className='columns'>
-                  <div className='column is-12 has-text-centered'>
+                  <div className='column is-12 '>
                     <h3 className='has-text-weight-semibold is-size-2'>
                       {heading}
                     </h3>
@@ -105,7 +104,6 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -123,7 +121,6 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
-        logo={frontmatter.logo}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
