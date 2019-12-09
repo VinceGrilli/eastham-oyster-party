@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
+import logo from '../../static/img/full-logo.png';
 
 export const IndexPageTemplate = ({
   image,
-  logo,
   title,
   heading,
   subheading,
@@ -24,9 +24,10 @@ export const IndexPageTemplate = ({
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
+      alt='BG'
     >
       <div className='content has-text-centered'>
-        <img src={logo} alt='EOP' style={{ width: '14em', height: '10em' }} />
+        <img src={logo} alt='EOP' />
       </div>
       {/*<div
         style={{
@@ -109,7 +110,6 @@ export const IndexPageTemplate = ({
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  logo: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -127,7 +127,6 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
-        logo={frontmatter.logo}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -156,13 +155,6 @@ export const pageQuery = graphql`
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        logo {
-          childImageSharp {
-            fluid(maxWidth: 400, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
