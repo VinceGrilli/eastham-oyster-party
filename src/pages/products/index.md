@@ -42,7 +42,7 @@ main:
     image: /img/oyster-display.jpg
   image2:
     alt: EOP shirt
-    image: /img/shirt.jpg
+    image: /img/three-oysters.jpg
   image3:
     alt: Turnip Fest
     image: /img/turnip-fest.jpg
