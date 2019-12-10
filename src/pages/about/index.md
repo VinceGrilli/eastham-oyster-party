@@ -1,16 +1,14 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: About Eastham Oyster Party
 ---
-
 ### Our values
 
 We are committed to bringing the authentic raw bar experience to your doorstep, the Eastham Oyster Party offers the best in high quality shellfish. Harvested using sustainably farmed and wild practices from the pristine and vast waters of outer Cape Cod.
 
 ### Sustainable farming
 
-Sustainable aguaculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+Sustainable aquaculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
 
 ### Farm to Party
 
