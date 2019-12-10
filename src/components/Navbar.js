@@ -63,7 +63,7 @@ const Navbar = class extends Component {
                 About
               </Link>
               <Link className='navbar-item' to='/products'>
-                Products
+                Our Shellfish
               </Link>
               <Link className='navbar-item' to='/contact'>
                 Contact
