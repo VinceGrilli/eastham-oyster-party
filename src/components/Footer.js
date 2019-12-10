@@ -30,7 +30,7 @@ const Footer = class extends Component {
                     </li>
                     <li>
                       <Link className='navbar-item' to='/products'>
-                        Products
+                        Our Shellfish
                       </Link>
                     </li>
                     <li>
