@@ -38,14 +38,14 @@ main:
     That’s why we’re meticulous and transparent about each step of the oyster’s
     journey. 
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: oyster display
+    image: /img/oyster-display.jpg
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: EOP shirt
+    image: /img/shirt.jpg
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Turnip Fest
+    image: /img/turnip-fest.jpg
 testimonials:
   - author: Elisabeth Kaurismaki
     quote: >-
