@@ -79,8 +79,15 @@ export const ProductPageTemplate = ({
                 </div>
               </div>
               <Testimonials testimonials={testimonials} />
+              <div className='columns'>
+                <div className='column is-12 has-text-centered'>
+                  <Link className='btn' to='/contact'>
+                    Contact Us
+                  </Link>
+                </div>
+              </div>
               <div
-                className='full-width-image-container'
+                className='full-width-image-container margin-bottom-0'
                 style={{
                   backgroundImage: `url(${
                     fullImage.childImageSharp
@@ -89,13 +96,6 @@ export const ProductPageTemplate = ({
                   })`,
                 }}
               />
-              <div className='columns'>
-                <div className='column is-12 has-text-centered'>
-                  <Link className='btn' to='/contact'>
-                    Contact Us
-                  </Link>
-                </div>
-              </div>
               {/* <h2 className="has-text-weight-semibold is-size-2">
                 {pricing.heading}
               </h2>
