@@ -80,7 +80,7 @@ export const ProductPageTemplate = ({
               </div>
               <Testimonials testimonials={testimonials} />
               <div className='columns'>
-                <div className='column is-12 has-text-centered'>
+                <div className='column is-12 has-text-centered padding-top-1'>
                   <Link className='btn' to='/contact'>
                     Contact Us
                   </Link>
