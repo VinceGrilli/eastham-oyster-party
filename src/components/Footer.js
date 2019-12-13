@@ -25,7 +25,7 @@ const Footer = class extends Component {
                     </li>
                     <li>
                       <Link className='navbar-item' to='/about'>
-                        About
+                        About Us
                       </Link>
                     </li>
                     <li>
@@ -56,7 +56,7 @@ const Footer = class extends Component {
                   <ul className='menu-list'>
                     <li>
                       <Link className='navbar-item' to='/contact'>
-                        Contact
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
