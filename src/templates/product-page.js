@@ -1,10 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
-import Pricing from '../components/Pricing';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const ProductPageTemplate = ({
@@ -16,7 +15,6 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
 }) => (
   <div className='content'>
     <div
@@ -149,7 +147,6 @@ const ProductPage = ({ data }) => {
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   );
@@ -236,16 +233,6 @@ export const productPageQuery = graphql`
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }
